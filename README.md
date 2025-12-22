@@ -3,6 +3,33 @@
 
 > Hydrangea Hacks 2021 Finance Hack and Top 6 Winner
 
+---
+
+## 🎮 **Now Available for Unreal Engine 5!**
+
+Finance Frenzy has been rebuilt for **Unreal Engine 5**, bringing enhanced graphics, performance, and cross-platform support!
+
+### Quick Links
+- **[UE5 Documentation](README_UE5.md)** - Complete UE5 setup and development guide
+- **[Quick Start Guide](QUICKSTART.md)** - Get started in 5 minutes
+- **[Blueprint Guide](BLUEPRINT_GUIDE.md)** - Working with Blueprints and C++
+
+### What's New in UE5 Version
+- ✨ Modern game engine architecture
+- 🎨 Enhanced UI/UX capabilities with UMG
+- 🚀 Better performance and scalability
+- 🎯 Cross-platform support (Windows, Mac, Linux)
+- 🔧 Modular C++ codebase
+- 📊 Blueprint-friendly design for easy customization
+- 🌐 Multiplayer-ready architecture
+
+**[Get Started with UE5 →](README_UE5.md)**
+
+---
+
+## Original Python Version
+
+The original Python/PyQt6 prototype is preserved in the `Legacy/Python/` directory for reference.
 
 # What it does
 
@@ -40,8 +67,19 @@ So we build Finance Frenzy because we believe knowledge is empowerment. This is 
 - Our demo showcase is the fully designed app we wanted to make, after the prototype phase.
 
 # Usage
-- Clone the repo
-- Run app.py
+
+## Unreal Engine 5 Version (Recommended)
+See **[README_UE5.md](README_UE5.md)** for complete setup instructions.
+
+Quick start:
+1. Install Unreal Engine 5.3
+2. Open `FinanceFrenzy.uproject`
+3. Build and run
+
+## Original Python Version (Legacy)
+- Navigate to `Legacy/Python/` directory
+- Install dependencies: `pip install PyQt6 pandas`
+- Run: `python app.py`
 
 # Challenges we ran into
 - Learning a new library in Python, PyQt took us some time. 
@@ -59,6 +97,17 @@ Finding free sites that provide the historical 20-year data we needed
 - Understanding more about each other’s area of knowledge (i.e. Finance and Computer Science) and finding a project that synergies with these 2 industries
 
 ## What's next for Finance Frenzy
+### Unreal Engine 5 Enhancements
+- Complete UI implementation with modern UMG widgets
+- Enhanced visual effects and animations  
+- VR/AR support for immersive financial education
+- Multiplayer competitive mode
+- Advanced analytics dashboard
+- Mobile platform support (iOS/Android)
+- Real-time market integration option
+- Achievement system and leaderboards
+
+### Planned Features
 - More visually appealing UI
 - Add more data (i.e. more news, more detailed stats and historical data)
 - Allows game to be saved at any point in time
