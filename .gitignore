@@ -82,3 +82,9 @@ DerivedDataCache/
 
 # Starter Content (optional - uncomment if not using)
 # Content/StarterContent/
+# IDE files
+.idea/
+.vscode/
+.cursor/
+.cursorrules
+.claude/
