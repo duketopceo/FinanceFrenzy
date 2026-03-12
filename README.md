@@ -1,115 +1,118 @@
+<p align="center">
+  <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/568/048/datas/medium.jpg" alt="Finance Frenzy" width="200"/>
+  <h1 align="center">Finance Frenzy</h1>
+  <p align="center">
+    Financial literacy simulation game — learn markets through real historical data.
+    <br />
+    <strong>Hydrangea Hacks 2021</strong> &mdash; Best Finance Hack &amp; Top 6 Winner
+  </p>
+</p>
 
-<img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/568/048/datas/medium.jpg"/>
-
-> Hydrangea Hacks 2021 Finance Hack and Top 6 Winner
-
----
-
-## 🎮 **Now Available for Unreal Engine 5!**
-
-Finance Frenzy has been rebuilt for **Unreal Engine 5**, bringing enhanced graphics, performance, and cross-platform support!
-
-### Quick Links
-- **[UE5 Documentation](README_UE5.md)** - Complete UE5 setup and development guide
-- **[Quick Start Guide](QUICKSTART.md)** - Get started in 5 minutes
-- **[Blueprint Guide](BLUEPRINT_GUIDE.md)** - Working with Blueprints and C++
-
-### What's New in UE5 Version
-- ✨ Modern game engine architecture
-- 🎨 Enhanced UI/UX capabilities with UMG
-- 🚀 Better performance and scalability
-- 🎯 Cross-platform support (Windows, Mac, Linux)
-- 🔧 Modular C++ codebase
-- 📊 Blueprint-friendly design for easy customization
-- 🌐 Multiplayer-ready architecture
-
-**[Get Started with UE5 →](README_UE5.md)**
+<p align="center">
+  <a href="https://github.com/duketopceo/FinanceFrenzy/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/release-v1.0.0-blue.svg" alt="Release"></a>
+  <a href="https://devpost.com/software/finance-frenzy/"><img src="https://img.shields.io/badge/hackathon-winner-gold.svg" alt="Hackathon Winner"></a>
+  <a href="#tech-stack"><img src="https://img.shields.io/badge/python-PyQt6-3776AB.svg" alt="Python"></a>
+  <a href="#tech-stack"><img src="https://img.shields.io/badge/engine-Unreal%20Engine%205-0E1128.svg" alt="UE5"></a>
+</p>
 
 ---
 
-## Original Python Version
+## Overview
 
-The original Python/PyQt6 prototype is preserved in the `Legacy/Python/` directory for reference.
+Finance Frenzy is a simulation game where players navigate 20 years of real market conditions (2000–2020) — making investment, savings, and spending decisions using actual historical stock prices, interest rates, and inflation data. Built to teach financial literacy through gameplay rather than textbooks.
 
-# What it does
+**Awards:** Best Finance Hack and Top 6 Overall at [Hydrangea Hacks 2021](https://devpost.com/software/finance-frenzy/).
 
-- A simulation game where the player has to learn how to read the market conditions and make informed financial decisions based on the tools the game provides
-- We use historical stock prices, interest rates and inflation data (aka real data from 2000-2020) to simulate the market
-- Players will be presented with challenges and opportunities for to make decisions based on their current financial knowledge and in-game wealth/market conditions
-- Show cashflow summary graph at the end of 20 years, show high score graphs so player can see how they fare among other players
-- Allows player to make their own decision and build confidence/take responsibility for the outcomes of their financial decisions
-- Goal is to help player understand the relationship between commodity prices, interest rates and inflation, wealth management, assets/liabilities etc.
-- In essence, give them real-life scenarios to help them learn how to read the market
-- Re-playable: see their end net worth value after 20 years, see the high scores board. Replay to learn which decisions the player made that went wrong or could have been better.
-- Devpost Link: https://devpost.com/software/finance-frenzy/
+---
 
-# Inspiration
+## Gameplay
 
-We wanted to build a hack that not only focuses on empowering females, but also anyone who uses it. As females in STEM, we saw that the there is quite a significant gender gap in both Computer Science and Finance industries.
+- Manage a virtual portfolio over a 20-year simulation period
+- React to real historical market events, recessions, and bull runs
+- Invest in 11 S&P sector ETFs representing different industries
+- Face random financial challenges (job loss, medical bills, windfalls)
+- Track your net worth against other players on the high score board
+- End-of-game cashflow analysis shows what decisions drove outcomes
 
-Since our team consists of both Computer Science and Finance majors, we figured this is a golden opportunity to build something that utilizes the best of both areas of this knowledge.
+---
 
-Just like programming, the number of females seen working in the Finance industry is pretty low. This can also be seen from the amount of women being less financial literate than men in general, regardless of whether they are living in a developed or developing country.
+## Two Versions
 
-This financial literacy issue is still a common issue in the world’s most advanced economies. In highly educated cities like Canada or Singapore, only 59-68% of the total population are financially literate, and it is just the basics.
+### Unreal Engine 5 (Current)
 
-Since the start of this pandemic, money management has never been more important to many families. And unfortunately, without the tools of financial literacy, families are struggling to save, invest and understand the implications of their decisions to their wealth.
+Full rebuild with modern game engine architecture, enhanced graphics, and cross-platform support.
 
-Furthermore, schools never emphasize on the importance of wealth management and finance education. We were always taught that Math is important, Chemistry is important, but what about accounting? Taxes? Investing? These areas of knowledge are just as important to a young adolescent as traditional school subjects.
+- **[UE5 Documentation](README_UE5.md)** — Setup and development guide
+- **[Quick Start](QUICKSTART.md)** — Get running in 5 minutes
+- **[Blueprint Guide](BLUEPRINT_GUIDE.md)** — Working with Blueprints and C++
 
-So we build Finance Frenzy because we believe knowledge is empowerment. This is an educational game app that can help guide anyone to the path of financial literacy.
+### Python / PyQt6 (Legacy)
 
- 
-# How we built it
-- The prototype is built with Python and a library called PyQt to make the UI elements
-- Downloaded historical U.S. interests and inflation rates from 2000-2020
-- To simplify the stock exchange, we used S&P sector prices as industry benchmark prices. Players can invest in only these 11 sector stocks, each representing a different industry.
-- Our demo showcase is the fully designed app we wanted to make, after the prototype phase.
+The original hackathon prototype, preserved in `Legacy/Python/` for reference.
 
-# Usage
+```bash
+cd Legacy/Python
+pip install -r requirements.txt
+python main.py
+```
 
-## Unreal Engine 5 Version (Recommended)
-See **[README_UE5.md](README_UE5.md)** for complete setup instructions.
+---
 
-Quick start:
-1. Install Unreal Engine 5.3
-2. Open `FinanceFrenzy.uproject`
-3. Build and run
+## Tech Stack
 
-## Original Python Version (Legacy)
-- Navigate to `Legacy/Python/` directory
-- Install dependencies: `pip install PyQt6 pandas`
-- Run: `python app.py`
+| Component | Technology |
+|-----------|-----------|
+| **Game Engine** | Unreal Engine 5.3 (C++ + Blueprints) |
+| **Original Prototype** | Python, PyQt6, Matplotlib |
+| **Data** | Historical S&P sector prices, US interest rates, inflation (2000–2020) |
+| **Charts** | UMG widgets (UE5) / Matplotlib (Python) |
 
-# Challenges we ran into
-- Learning a new library in Python, PyQt took us some time. 
-- Our teammates are 12 hours apart, we are all living in different time zones, so we had to keep that in mind when initiating a meeting
-- Time limit, we only had a short amount of time to implement all the ideas we wanted to include in the prototype
-Finding free sites that provide the historical 20-year data we needed
+---
 
-# Accomplishments that we are proud of
-- Finished a simplistic working prototype despite being pressed for time
-- Even though this is the first time we teamed up, we are proud of the fact that this hackathon allows us to utilize each team member’s strength to complete this hack: a prototype, a UI demo and a demo video.
+## Project Structure
 
-## What we learned
-- Python: Skills level up +1 with PyQt
-- Working together virtually, even with different time zones
-- Understanding more about each other’s area of knowledge (i.e. Finance and Computer Science) and finding a project that synergies with these 2 industries
+```
+FinanceFrenzy/
+├── Source/                    # UE5 C++ source
+├── Content/                   # UE5 assets, Blueprints, UI
+├── Config/                    # UE5 project configuration
+├── FinanceFrenzy.uproject     # Unreal project file
+├── Legacy/
+│   └── Python/                # Original PyQt6 prototype
+├── data/                      # Historical market data (CSV)
+├── assets/                    # Design assets and mockups
+├── QUICKSTART.md              # 5-minute setup guide
+├── BLUEPRINT_GUIDE.md         # UE5 Blueprint reference
+├── CONTRIBUTING.md            # Contribution guidelines
+└── README_UE5.md              # Full UE5 documentation
+```
 
-## What's next for Finance Frenzy
-### Unreal Engine 5 Enhancements
-- Complete UI implementation with modern UMG widgets
-- Enhanced visual effects and animations  
-- VR/AR support for immersive financial education
-- Multiplayer competitive mode
-- Advanced analytics dashboard
-- Mobile platform support (iOS/Android)
-- Real-time market integration option
-- Achievement system and leaderboards
+---
 
-### Planned Features
-- More visually appealing UI
-- Add more data (i.e. more news, more detailed stats and historical data)
-- Allows game to be saved at any point in time
-- Easy/Hard mode: show hints for new players, hide hints for advanced players
-- Present challenges and opportunities to the player every few months to encourage more decision-making and put skills to the test (i.e. scam deals, real estate opportunities, investing deals, etc.)
+## Quick Start (UE5)
+
+1. Install [Unreal Engine 5.3](https://www.unrealengine.com/)
+2. Clone this repository
+3. Open `FinanceFrenzy.uproject`
+4. Build and run (Play in Editor)
+
+See **[QUICKSTART.md](QUICKSTART.md)** for detailed instructions.
+
+---
+
+## Documentation
+
+| Document | Description |
+|----------|-------------|
+| [QUICKSTART.md](QUICKSTART.md) | 5-minute setup guide |
+| [README_UE5.md](README_UE5.md) | Full UE5 architecture and development |
+| [BLUEPRINT_GUIDE.md](BLUEPRINT_GUIDE.md) | Blueprint and C++ workflow |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
+| [BUILD.md](BUILD.md) | Build configuration and packaging |
+| [MIGRATION_GUIDE.md](MIGRATION_GUIDE.md) | PyQt6 → UE5 migration notes |
+
+---
+
+## License
+
+MIT
