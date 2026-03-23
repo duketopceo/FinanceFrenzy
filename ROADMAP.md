@@ -9,24 +9,30 @@
 - [x] Hackathon Winner (Best Finance Hack, Hydrangea Hacks 2021)
 - [x] UE5 rebuild with enhanced graphics
 - [x] Legacy Python/PyQt6 version preserved
+- [x] Enterprise standards (AGENTS.md, CHANGELOG.md, structured logging, release automation)
+
+## v1.0.1 — Security Patch (Immediate)
+- [ ] Fix .gitignore — add .env, node_modules exclusions
+- [ ] Add Dependabot configuration
+- [ ] Add SECURITY.md vulnerability disclosure policy
 
 ## v1.1.0 — UE5 Polish
-- [ ] Tutorial mode for new players
-- [ ] Improved UI/UX with accessibility options
-- [ ] Save/load game state
-- [ ] Difficulty levels (Easy/Normal/Hard market conditions)
-- [ ] Sound design and music
+- [ ] Tutorial mode for new players (guided first 2 years)
+- [ ] Improved UI/UX with accessibility options (colorblind mode, font scaling)
+- [ ] Save/load game state (local + cloud)
+- [ ] Difficulty levels (Easy/Normal/Hard market volatility)
+- [ ] Sound design and music (market ambiance, event stingers)
 
 ## v2.0.0 — Multiplayer
-- [ ] Local multiplayer (2–4 players)
-- [ ] Online competitive mode
-- [ ] Leaderboard with historical rankings
-- [ ] Replay system for reviewing decisions
-- [ ] Achievement system
+- [ ] Local multiplayer (2–4 players, split decisions)
+- [ ] Online competitive mode with matchmaking
+- [ ] Leaderboard with historical rankings and replay links
+- [ ] Replay system for reviewing key decisions
+- [ ] Achievement system (survive a crash, beat S&P, etc.)
 
 ## v3.0.0 — Educational Platform
-- [ ] Lesson mode tied to each market event
-- [ ] Integration with financial literacy curriculum
-- [ ] Teacher dashboard with class progress
-- [ ] Custom scenario editor
-- [ ] Mobile port (iOS/Android)
+- [ ] Lesson mode tied to each real market event (dot-com, 2008, COVID)
+- [ ] Integration with financial literacy curriculum (Common Core aligned)
+- [ ] Teacher dashboard with class progress and grading
+- [ ] Custom scenario editor (create your own market events)
+- [ ] Mobile port (iOS/Android via UE5 mobile build)
