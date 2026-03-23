@@ -88,3 +88,13 @@ DerivedDataCache/
 .cursor/
 .cursorrules
 .claude/
+
+
+# Security — added by enterprise standards rollout
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+node_modules/
+.DS_Store
